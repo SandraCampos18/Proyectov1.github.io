@@ -1,0 +1,402 @@
+/*configuración de toda la hoja*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*configuración del main*/
+.main{
+    background-color: #F6F5F5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*finalizaconfiguración del main*/
+/*configuración de la cabecera*/
+.cabecera{
+    background-color: #8CE92F;
+    width: 100%;
+    height: 50px;
+   /* position: fixed;
+    top: 0;*/
+    padding: 0 100px;
+}
+
+/*configuración de la información de la cabecera*/
+.cabecera_link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*alineo verticalment*/
+    align-items: center;
+    text-decoration: solid;
+    color:black ;
+    font-size: 20px;
+    font-weight: 50px;
+    }
+/*configuración imagen de cabecera*/
+.cabecera_img{
+   object-fit: cover; 
+   height: 100%;
+   margin-right: 350px;
+   }
+   /*finaliza configuración de la cabecera*/
+
+   /*configuración de la parte de navegación*/
+.navegacion{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    padding: 0 40;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    font-size: 18 px;
+    font-weight: 600;
+    padding: 25px 30px;
+}
+.navegacion a:hover{
+    color: white;
+background-color: burlywood;
+}
+/*finaliza configuración de la parte de navegación*/
+
+/*Inicia configuración de la parte de banner*/
+.banner{
+    text-align: center;
+    font-style: italic;
+}
+
+.video_1{
+    float: left;
+    padding: 10px;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: #8CE92F;
+    border-radius: 3rem;
+}
+.video_2{
+    float: left;
+    padding: 10px;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: #8CE92F;
+    border-radius: 3rem;
+}
+.video_3{
+    float: left;
+    padding: 10px;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: #8CE92F;
+    border-radius: 3rem;
+}
+/*finaliza configuración de la parte de banner*/
+
+/*inicia configuración de texto biodiversidad*/
+.explicacionBIO{
+    margin: 2em;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-style: italic;
+}
+
+/*finaliza configuración de texto biodiversidad*/
+
+/* Inicia sección 2*/
+.seccion_3{
+    background-color: #A9F5F2;
+}
+
+    .container{
+        width: 100%;
+        display: flex;
+        max-width: 1100px;
+    }
+    .card{
+        width: 100%;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0px 1px 10px rgba(0, 0,0,0.2);
+        cursor: default;
+        transition: all 400ms ease;
+    }
+
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0,0,0.4);
+        transform: translate(-3%);
+    }
+    .card img{
+        width: 100%;
+        height: 210px;
+    }
+    .mapadiv{
+        text-align: center;
+    }
+    .mapadiv path{
+        fill: #8CE92F;
+        stroke: white;
+        stroke-width: 2px;
+        transition: all 400ms ease;
+    }
+      .Cundinamarca :hover{
+        fill: #2E9AFE;
+    }
+    .Boyaca :hover{
+        fill: yellow;
+    }
+
+    /*Página de niños*/
+   .ninos_banner{
+    background-image: url(../img/ninos2.png);
+width: 100%;
+height: 6em;
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+font-size: 28;
+opacity: 0,4;
+   }
+   .ninos_banner h2{
+    color: white;
+   }
+
+   .explicacionBIO_ninos{
+    margin: 2em;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 32;
+}
+.explicacionBIO_ninos p{
+    padding: 2% 0;
+}
+.explicacionBIO_ninos img {
+float: right;
+}
+.ecosistemas_ninos{
+    margin: 2em;
+    padding: 3em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 32;
+}
+.ecosistemas_ninos p{
+    padding: 4%;
+    text-align: justify;
+}
+.ecosistemas_ninos img {
+float: right;
+width: 50%;
+height: 10em;
+}
+
+.container_n{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.card_n{
+    width: 40%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    position: column;
+
+}
+.card_n:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0,0,0.4);
+    transform: translate(-3%);
+}
+.card_n img{
+    width: 100%;
+    height: 210px;
+    padding: 0.5em;
+}
+.card_n h3{
+    font-style: italic;
+    font-size: 32;
+    font-display: center;
+    padding: 0.5em;
+}
+/*Datos curiosos paramaos*/
+.seccion_3n{
+    margin: 2em;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 32;
+}
+
+.contenedor_paramos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.contenedor_paramos h3{
+text-align: center;
+}
+.contenedor_paramos figure{
+position: relative;
+height: 250px;
+width: 350px;
+overflow: hidden;
+border-radius: 6px;
+box-shadow: 0px 15px 25px rgba(0,0, 0,0.50);
+cursor: pointer;
+position: column;
+margin: 20px;
+text-align: center;
+}
+.contenedor_paramos figure img{
+    height: 100%;
+    width: 100%;
+    transition: all 500ms ease-out;
+
+    }
+    .contenedor_paramos figure .capa{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgba(11, 103, 123, 0.7);
+transition: all 500ms ease-out;
+opacity: 0;
+visibility: hidden;
+text-align: center;
+        }
+.contenedor_paramos figure:hover > .capa{
+opacity: 1;
+visibility: visible;
+        }
+.contenedor_paramos figure .capa p{
+            color: #fff;
+            font-size: 15px;
+            line-height: 1.5;
+            width: 100%;
+            max-width: 220px;
+            margin: auto;
+                 }
+.contenedor_paramos figure .capa li{
+            color: #fff;
+            font-size: 15px;
+            line-height: 1.0;
+            width: 100%;
+            max-width: 220px;
+            margin: auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em;
+        }
+
+        .seccion_5n{
+            margin: 2em;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            font-style: italic;
+            font-size: 32;
+        }
+
+        /*Página de Boyacá*/
+        .Boyaca_banner{
+            background-image: url(../img/boyaca2.png);
+        width: 170%;
+        height: 8em;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        font-size: 28;
+        opacity: 0,4;
+           }
+
+           .explicacionBIO_ninos h2{
+text-align: center;
+}
+.Cundinamarca_banner{
+background-image: url(../img/Cundinamarca1.JPG);
+width: 170%;
+height: 12em;
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+font-size: 28;
+opacity: 0,4;
+   }
+   .formula{
+    margin: 2em;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 32;
+}
+.formu{
+    background-color: #fff;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: rgb(92, 85, 85);
+}
+.formulario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+input{
+width: 100%;
+height: 35%;
+margin: 5px 0;
+}
+textarea{
+    width: 100%;
+    height: 35%;
+    margin: 5px 0;
+    }
